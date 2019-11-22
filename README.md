@@ -1,20 +1,18 @@
-## Try All Kill SIGNALS 
+## Send All Kill SIGNALS 
+killコマンドで指定できるSIGNALオプションを全部試す
 
-Yeah 
-
-#### loop.c 
+#### loop 
 
 ```
-void main(){
+int main(){
   while(1){}
 }
-
 ```
 
 #### build 
 
 `gcc -o loop loop.c` 
 
-#### bash
+#### run
 
-`bash kill_all_sig_pattern.sh &>> dying_messages.txt`
+`sh kill_all_sig_pattern.sh > dying_messages.txt 2>&1`

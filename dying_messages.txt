@@ -1,128 +1,61 @@
-SIGNALS[0] = SIGHUP
-kill-signals.sh: line 19:  1366 Hangup                  ./loop
-SIGNALS[1] = SIGINT
-kill-signals.sh: line 19:  1368 Killed                  ./loop
-SIGNALS[2] = SIGQUIT
-kill-signals.sh: line 19:  1370 Killed                  ./loop
-SIGNALS[3] = SIGILL
-kill-signals.sh: line 19:  1372 Illegal instruction     (core dumped) ./loop
-SIGNALS[4] = SIGTRAP
-kill-signals.sh: line 19:  1374 Trace/breakpoint trap   (core dumped) ./loop
-SIGNALS[5] = SIGABRT
-kill-signals.sh: line 19:  1376 Aborted                 (core dumped) ./loop
-SIGNALS[6] = SIGBUS
-kill-signals.sh: line 19:  1378 Bus error               (core dumped) ./loop
-SIGNALS[7] = SIGFPE
-kill-signals.sh: line 19:  1380 Floating point exception(core dumped) ./loop
-SIGNALS[8] = SIGKILL
-kill-signals.sh: line 19:  1382 Killed                  ./loop
-SIGNALS[9] = SIGUSR1
-kill-signals.sh: line 19:  1384 User defined signal 1   ./loop
-SIGNALS[10] = SIGSEGV
-kill-signals.sh: line 19:  1386 Segmentation fault      (core dumped) ./loop
-SIGNALS[11] = SIGUSR2
-kill-signals.sh: line 19:  1388 User defined signal 2   ./loop
-SIGNALS[12] = SIGPIPE
-SIGNALS[13] = SIGALRM
-kill-signals.sh: line 19:  1392 Alarm clock             ./loop
-SIGNALS[14] = SIGTERM
-kill-signals.sh: line 19:  1394 Terminated              ./loop
-SIGNALS[15] = SIGSTKFLT
-kill-signals.sh: line 19:  1396 Stack fault             ./loop
-SIGNALS[16] = SIGCHLD
-kill-signals.sh: line 19:  1398 Killed                  ./loop
-SIGNALS[17] = SIGCONT
-kill-signals.sh: line 19:  1400 Killed                  ./loop
-SIGNALS[18] = SIGSTOP
-kill-signals.sh: line 19:  1402 Killed                  ./loop
-SIGNALS[19] = SIGTSTP
-kill-signals.sh: line 19:  1404 Killed                  ./loop
-SIGNALS[20] = SIGTTIN
-kill-signals.sh: line 19:  1406 Killed                  ./loop
-SIGNALS[21] = SIGTTOU
-kill-signals.sh: line 19:  1408 Killed                  ./loop
-SIGNALS[22] = SIGURG
-kill-signals.sh: line 19:  1410 Killed                  ./loop
-SIGNALS[23] = SIGXCPU
-kill-signals.sh: line 19:  1412 CPU time limit exceeded (core dumped) ./loop
-SIGNALS[24] = SIGXFSZ
-kill-signals.sh: line 19:  1414 File size limit exceeded(core dumped) ./loop
-SIGNALS[25] = SIGVTALRM
-kill-signals.sh: line 19:  1416 Virtual timer expired   ./loop
-SIGNALS[26] = SIGPROF
-kill-signals.sh: line 19:  1418 Profiling timer expired ./loop
-SIGNALS[27] = SIGWINCH
-kill-signals.sh: line 19:  1420 Killed                  ./loop
-SIGNALS[28] = SIGIO
-kill-signals.sh: line 19:  1422 I/O possible            ./loop
-SIGNALS[29] = SIGPWR
-kill-signals.sh: line 19:  1424 Power failure           ./loop
-kill-signals.sh: line 17: kill: (1426) - No such process
-SIGNALS[30] = SIGSYS
-kill-signals.sh: line 19:  1426 Bad system call         (core dumped) ./loop
-SIGNALS[31] = SIGRTMIN
-SIGNALS[0] = SIGHUP
-kill_all_sig_pattern.sh: line 19: 64073 Hangup: 1               ./loop
-SIGNALS[1] = SIGINT
-kill_all_sig_pattern.sh: line 19: 64075 Killed: 9               ./loop
-SIGNALS[2] = SIGQUIT
-kill_all_sig_pattern.sh: line 19: 64077 Killed: 9               ./loop
-SIGNALS[3] = SIGILL
-kill_all_sig_pattern.sh: line 19: 64079 Illegal instruction: 4  ./loop
-SIGNALS[4] = SIGTRAP
-kill_all_sig_pattern.sh: line 19: 64081 Trace/BPT trap: 5       ./loop
-SIGNALS[5] = SIGABRT
-kill_all_sig_pattern.sh: line 19: 64083 Abort trap: 6           ./loop
-SIGNALS[6] = SIGBUS
-kill_all_sig_pattern.sh: line 19: 64085 Bus error: 10           ./loop
-SIGNALS[7] = SIGFPE
-kill_all_sig_pattern.sh: line 19: 64087 Floating point exception: 8   ./loop
-SIGNALS[8] = SIGKILL
-kill_all_sig_pattern.sh: line 19: 64089 Killed: 9               ./loop
-SIGNALS[9] = SIGUSR1
-kill_all_sig_pattern.sh: line 19: 64091 User defined signal 1: 30 ./loop
-SIGNALS[10] = SIGSEGV
-kill_all_sig_pattern.sh: line 19: 64093 Segmentation fault: 11  ./loop
-SIGNALS[11] = SIGUSR2
-kill_all_sig_pattern.sh: line 19: 64095 User defined signal 2: 31 ./loop
-SIGNALS[12] = SIGPIPE
-SIGNALS[13] = SIGALRM
-kill_all_sig_pattern.sh: line 19: 64099 Alarm clock: 14         ./loop
-SIGNALS[14] = SIGTERM
-kill_all_sig_pattern.sh: line 19: 64101 Terminated: 15          ./loop
-kill_all_sig_pattern.sh: line 16: kill: SIGSTKFLT: invalid signal specification
-SIGNALS[15] = SIGSTKFLT
-kill_all_sig_pattern.sh: line 19: 64103 Killed: 9               ./loop
-SIGNALS[16] = SIGCHLD
-kill_all_sig_pattern.sh: line 19: 64105 Killed: 9               ./loop
-SIGNALS[17] = SIGCONT
-kill_all_sig_pattern.sh: line 19: 64107 Killed: 9               ./loop
-SIGNALS[18] = SIGSTOP
-kill_all_sig_pattern.sh: line 19: 64109 Killed: 9               ./loop
-SIGNALS[19] = SIGTSTP
-kill_all_sig_pattern.sh: line 19: 64111 Killed: 9               ./loop
-SIGNALS[20] = SIGTTIN
-kill_all_sig_pattern.sh: line 19: 64113 Killed: 9               ./loop
-SIGNALS[21] = SIGTTOU
-kill_all_sig_pattern.sh: line 19: 64115 Killed: 9               ./loop
-SIGNALS[22] = SIGURG
-kill_all_sig_pattern.sh: line 19: 64117 Killed: 9               ./loop
-SIGNALS[23] = SIGXCPU
-kill_all_sig_pattern.sh: line 19: 64119 Cputime limit exceeded: 24  ./loop
-SIGNALS[24] = SIGXFSZ
-kill_all_sig_pattern.sh: line 19: 64121 Filesize limit exceeded: 25   ./loop
-SIGNALS[25] = SIGVTALRM
-kill_all_sig_pattern.sh: line 19: 64123 Virtual timer expired: 26 ./loop
-SIGNALS[26] = SIGPROF
-kill_all_sig_pattern.sh: line 19: 64125 Profiling timer expired: 27   ./loop
-SIGNALS[27] = SIGWINCH
-kill_all_sig_pattern.sh: line 19: 64127 Killed: 9               ./loop
-SIGNALS[28] = SIGIO
-kill_all_sig_pattern.sh: line 19: 64129 Killed: 9               ./loop
-kill_all_sig_pattern.sh: line 16: kill: SIGPWR: invalid signal specification
-SIGNALS[29] = SIGPWR
-kill_all_sig_pattern.sh: line 19: 64131 Killed: 9               ./loop
-SIGNALS[30] = SIGSYS
-kill_all_sig_pattern.sh: line 19: 64133 Bad system call: 12     ./loop
-kill_all_sig_pattern.sh: line 16: kill: SIGRTMIN: invalid signal specification
-SIGNALS[31] = SIGRTMIN
+SIGNALS[0] = HUP
+kill_all_sig_pattern.sh: line 11: 65272 Hangup: 1               ./loop
+SIGNALS[1] = INT
+kill_all_sig_pattern.sh: line 11: 65274 Killed: 9               ./loop
+SIGNALS[2] = QUIT
+kill_all_sig_pattern.sh: line 11: 65276 Killed: 9               ./loop
+SIGNALS[3] = ILL
+kill_all_sig_pattern.sh: line 11: 65278 Illegal instruction: 4  ./loop
+SIGNALS[4] = TRAP
+kill_all_sig_pattern.sh: line 11: 65280 Trace/BPT trap: 5       ./loop
+SIGNALS[5] = ABRT
+kill_all_sig_pattern.sh: line 11: 65282 Abort trap: 6           ./loop
+SIGNALS[6] = EMT
+kill_all_sig_pattern.sh: line 11: 65284 EMT trap: 7             ./loop
+SIGNALS[7] = FPE
+kill_all_sig_pattern.sh: line 11: 65286 Floating point exception: 8   ./loop
+SIGNALS[8] = KILL
+kill_all_sig_pattern.sh: line 11: 65288 Killed: 9               ./loop
+SIGNALS[9] = BUS
+kill_all_sig_pattern.sh: line 11: 65290 Bus error: 10           ./loop
+SIGNALS[10] = SEGV
+kill_all_sig_pattern.sh: line 11: 65292 Segmentation fault: 11  ./loop
+SIGNALS[11] = SYS
+kill_all_sig_pattern.sh: line 11: 65294 Bad system call: 12     ./loop
+SIGNALS[12] = PIPE
+SIGNALS[13] = ALRM
+kill_all_sig_pattern.sh: line 11: 65298 Alarm clock: 14         ./loop
+SIGNALS[14] = TERM
+kill_all_sig_pattern.sh: line 11: 65300 Terminated: 15          ./loop
+SIGNALS[15] = URG
+kill_all_sig_pattern.sh: line 11: 65302 Killed: 9               ./loop
+SIGNALS[16] = STOP
+kill_all_sig_pattern.sh: line 11: 65304 Killed: 9               ./loop
+SIGNALS[17] = TSTP
+kill_all_sig_pattern.sh: line 11: 65306 Killed: 9               ./loop
+SIGNALS[18] = CONT
+kill_all_sig_pattern.sh: line 11: 65308 Killed: 9               ./loop
+SIGNALS[19] = CHLD
+kill_all_sig_pattern.sh: line 11: 65310 Killed: 9               ./loop
+SIGNALS[20] = TTIN
+kill_all_sig_pattern.sh: line 11: 65312 Killed: 9               ./loop
+SIGNALS[21] = TTOU
+kill_all_sig_pattern.sh: line 11: 65314 Killed: 9               ./loop
+SIGNALS[22] = IO
+kill_all_sig_pattern.sh: line 11: 65316 Killed: 9               ./loop
+SIGNALS[23] = XCPU
+kill_all_sig_pattern.sh: line 11: 65318 Cputime limit exceeded: 24  ./loop
+SIGNALS[24] = XFSZ
+kill_all_sig_pattern.sh: line 11: 65320 Filesize limit exceeded: 25   ./loop
+SIGNALS[25] = VTALRM
+kill_all_sig_pattern.sh: line 11: 65322 Virtual timer expired: 26 ./loop
+SIGNALS[26] = PROF
+kill_all_sig_pattern.sh: line 11: 65324 Profiling timer expired: 27   ./loop
+SIGNALS[27] = WINCH
+kill_all_sig_pattern.sh: line 11: 65326 Killed: 9               ./loop
+SIGNALS[28] = INFO
+kill_all_sig_pattern.sh: line 11: 65328 Killed: 9               ./loop
+SIGNALS[29] = USR1
+kill_all_sig_pattern.sh: line 11: 65330 User defined signal 1: 30 ./loop
+SIGNALS[30] = USR2
+kill_all_sig_pattern.sh: line 12: 65332 User defined signal 2: 31 ./loop

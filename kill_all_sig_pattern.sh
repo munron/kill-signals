@@ -1,17 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
-SIGNALS=(
-  "SIGHUP"      "SIGINT"      "SIGQUIT"    "SIGILL"      "SIGTRAP"
-  "SIGABRT"     "SIGBUS"      "SIGFPE"     "SIGKILL"     "SIGUSR1"
-  "SIGSEGV"     "SIGUSR2"     "SIGPIPE"    "SIGALRM"     "SIGTERM"
-  "SIGSTKFLT"   "SIGCHLD"     "SIGCONT"    "SIGSTOP"     "SIGTSTP"
-  "SIGTTIN"     "SIGTTOU"     "SIGURG"     "SIGXCPU"     "SIGXFSZ"
-  "SIGVTALRM"   "SIGPROF"     "SIGWINCH"   "SIGIO"       "SIGPWR"
-  "SIGSYS"      "SIGRTMIN"
-)
+SIGNALS=(`kill -l`)
 
 for ((i = 0; i < ${#SIGNALS[@]}; i++)) {
-    sleep 0.1
+    sleep 0.3
     ./loop &
     kill -s "${SIGNALS[i]}" $!
     kill -9 $!
