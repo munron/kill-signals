@@ -17,4 +17,4 @@ void main(){
 
 #### bash
 
-`bash kill-pattern.sh kill_all_sig_pattern.sh &>> dying_messages.txt`
+`bash kill_all_sig_pattern.sh &>> dying_messages.txt`
