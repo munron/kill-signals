@@ -1,0 +1,63 @@
+SIGNALS[0] = SIGHUP
+kill-signals.sh: line 19:  1366 Hangup                  ./loop
+SIGNALS[1] = SIGINT
+kill-signals.sh: line 19:  1368 Killed                  ./loop
+SIGNALS[2] = SIGQUIT
+kill-signals.sh: line 19:  1370 Killed                  ./loop
+SIGNALS[3] = SIGILL
+kill-signals.sh: line 19:  1372 Illegal instruction     (core dumped) ./loop
+SIGNALS[4] = SIGTRAP
+kill-signals.sh: line 19:  1374 Trace/breakpoint trap   (core dumped) ./loop
+SIGNALS[5] = SIGABRT
+kill-signals.sh: line 19:  1376 Aborted                 (core dumped) ./loop
+SIGNALS[6] = SIGBUS
+kill-signals.sh: line 19:  1378 Bus error               (core dumped) ./loop
+SIGNALS[7] = SIGFPE
+kill-signals.sh: line 19:  1380 Floating point exception(core dumped) ./loop
+SIGNALS[8] = SIGKILL
+kill-signals.sh: line 19:  1382 Killed                  ./loop
+SIGNALS[9] = SIGUSR1
+kill-signals.sh: line 19:  1384 User defined signal 1   ./loop
+SIGNALS[10] = SIGSEGV
+kill-signals.sh: line 19:  1386 Segmentation fault      (core dumped) ./loop
+SIGNALS[11] = SIGUSR2
+kill-signals.sh: line 19:  1388 User defined signal 2   ./loop
+SIGNALS[12] = SIGPIPE
+SIGNALS[13] = SIGALRM
+kill-signals.sh: line 19:  1392 Alarm clock             ./loop
+SIGNALS[14] = SIGTERM
+kill-signals.sh: line 19:  1394 Terminated              ./loop
+SIGNALS[15] = SIGSTKFLT
+kill-signals.sh: line 19:  1396 Stack fault             ./loop
+SIGNALS[16] = SIGCHLD
+kill-signals.sh: line 19:  1398 Killed                  ./loop
+SIGNALS[17] = SIGCONT
+kill-signals.sh: line 19:  1400 Killed                  ./loop
+SIGNALS[18] = SIGSTOP
+kill-signals.sh: line 19:  1402 Killed                  ./loop
+SIGNALS[19] = SIGTSTP
+kill-signals.sh: line 19:  1404 Killed                  ./loop
+SIGNALS[20] = SIGTTIN
+kill-signals.sh: line 19:  1406 Killed                  ./loop
+SIGNALS[21] = SIGTTOU
+kill-signals.sh: line 19:  1408 Killed                  ./loop
+SIGNALS[22] = SIGURG
+kill-signals.sh: line 19:  1410 Killed                  ./loop
+SIGNALS[23] = SIGXCPU
+kill-signals.sh: line 19:  1412 CPU time limit exceeded (core dumped) ./loop
+SIGNALS[24] = SIGXFSZ
+kill-signals.sh: line 19:  1414 File size limit exceeded(core dumped) ./loop
+SIGNALS[25] = SIGVTALRM
+kill-signals.sh: line 19:  1416 Virtual timer expired   ./loop
+SIGNALS[26] = SIGPROF
+kill-signals.sh: line 19:  1418 Profiling timer expired ./loop
+SIGNALS[27] = SIGWINCH
+kill-signals.sh: line 19:  1420 Killed                  ./loop
+SIGNALS[28] = SIGIO
+kill-signals.sh: line 19:  1422 I/O possible            ./loop
+SIGNALS[29] = SIGPWR
+kill-signals.sh: line 19:  1424 Power failure           ./loop
+kill-signals.sh: line 17: kill: (1426) - No such process
+SIGNALS[30] = SIGSYS
+kill-signals.sh: line 19:  1426 Bad system call         (core dumped) ./loop
+SIGNALS[31] = SIGRTMIN
